@@ -124,6 +124,18 @@ header section>img {
     text-align: center;
 }
 
+/* sponcor lists */
+.sponcors-lists {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.sponcors-lists img {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+
 /* responsibe designs */
 @media screen and (max-width: 576px) {
     header nav {
