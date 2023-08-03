@@ -184,4 +184,11 @@ header section>img {
         margin: auto;
     }
 
+    .sponcors-lists {
+
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
 }
