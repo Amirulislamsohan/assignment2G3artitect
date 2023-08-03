@@ -3,6 +3,10 @@ body {
     margin: 0;
 }
 
+main {
+    margin: 0 20px;
+}
+
 /* primary designs  */
 .primary-btn {
     border: 0;
@@ -126,6 +130,7 @@ header section>img {
 
 /* sponcor lists */
 .sponcors-lists {
+
     list-style: none;
     display: flex;
     justify-content: space-around;
@@ -134,6 +139,14 @@ header section>img {
 .sponcors-lists img {
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
+}
+
+/* footer styles */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #FFF4E7;
+    margin-top: 40px;
 }
 
 /* responsibe designs */
